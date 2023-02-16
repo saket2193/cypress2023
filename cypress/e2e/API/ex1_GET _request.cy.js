@@ -6,6 +6,7 @@ describe('api',function(){
         expect(response.status).to.be.eq(200)
         cy.log(response.body.page)
         })
+        //
         
     })
 })
