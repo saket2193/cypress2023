@@ -15,6 +15,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
 
   defaultCommandTimeout: 6000,
+  pageLoadTimeout:10000,
   env: {
     url: "https://rahulshettyacademy.com",
   },
@@ -24,10 +25,11 @@ module.exports = defineConfig({
   },
   projectId: "9q85s7",
   experimentalStudio: true,
-
+  
   e2e: {
     setupNodeEvents,
-    specPattern: "cypress/e2e/"
+    specPattern: "cypress/e2e/",
+    baseUrl:"https://the-internet.herokuapp.com/"
 
   },
   
