@@ -16,6 +16,10 @@ module.exports = defineConfig({
 
   defaultCommandTimeout: 6000,
   pageLoadTimeout:10000,
+  screenshotOnRunFailure:true,
+  trashAssetsBeforeRuns:true,
+  video:true,
+  videoCompression:51,
   env: {
     url: "https://rahulshettyacademy.com",
   },

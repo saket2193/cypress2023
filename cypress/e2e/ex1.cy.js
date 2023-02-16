@@ -5,8 +5,6 @@ describe('test suite 1',function() {
       
         cy.visit('/');
 
-        debugger
-        
     })
 
 })
