@@ -1,4 +1,12 @@
 # Node.js
+- task: Leapwork@4
+  inputs:
+    leapworkHostname: 'localhost'
+    leapworkPort: '9001'
+    leapworkAccessKey: 'qwerty'
+    leapworkDoneStatusAs: 'Failed'
+    leapworkReport: 'report.xml'
+    leapworkSchids: 'b9b50391-b242-4e61-b915-7128ea2ad61d'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
