@@ -15,7 +15,7 @@ steps:
     leapworkAccessKey: 'qwerty'
     leapworkDoneStatusAs: 'Failed'
     leapworkReport: 'report.xml'
-    leapworkSchids: 'b9b50391-b242-4e61-b915-7128ea2ad61d'
+    leapworkSchids: '89e5ee7c-01f6-4192-8362-16ec3721821a'
 
 
 
